@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="./images/favicon.png" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+            integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>San Diego Design Week | 2022</title>
+    </head>
+
+    <body>
+        <header class="header wow fadeIn">
+            <div class="container container--fullwidth">
+                <div class="header__logo">
+                    <img
+                        src="./images/logo-mini.svg"
+                        alt="logo"
+                        class="header__logo-img"
+                    />
+                </div>
+                <div class="header__menu">
+                    <nav class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__list-item">
+                                <a href="/index.html">Home</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="/programs.html">Programs</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="/get-involved.html">Get involved</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="/about.html">About</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="/supporters.html">Supporters</a>
+                            </li>
+                            <li class="header-nav__list-item">
+                                <a href="/sponsor-sddw.html">Sponsor SDDW</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="toggle-menu">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </div>
+                <nav class="header-nav donate">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__list-item">
+                            <a
+                                href="https://47676.blackbaudhosting.com/47676/San-Diego-Design-Week"
+                                target="_blank"
+                            >
+                                Donate
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="single-page">
+            <section class="hero">
+                <div class="container container--fullwidth">
+                    <div class="pure-g">
+                        <div class="pure-u-1">
+                            <div
+                                class="banner banner--overlay"
+                                style="
+                                    background-image: url('./images/programs-hero-bg.jpeg');
+                                "
+                            >
+                                <div class="banner__content">
+                                    <h2>Explore the SD/TJ Map</h2>
+                                    <p>
+                                        We're diving into the influences and
+                                        origins of inspiration to share new
+                                        ideas across our region. Discover all of
+                                        the programs in our 2022 line-up.
+                                    </p>
+                                    <a
+                                        href="#"
+                                        class="btn btn--primary btn--outline btn--m"
+                                    >
+                                        Find inspiration
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="programs pd--m">
+                <div class="container container--fullwidth">
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-lg-1-4 programs__filter">
+                            <div class="filter">
+                                <h4>Filter by</h4>
+                                <details>
+                                    <summary>Program type</summary>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="activity"
+                                            />
+                                            <span class="checker"></span>
+                                            Activity
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="design resources"
+                                            />
+                                            <span class="checker"></span>
+                                            Design resources
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="design site"
+                                            />
+                                            <span class="checker"></span>
+                                            Design site
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="design talks"
+                                            />
+                                            <span class="checker"></span>
+                                            Design talks
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="exhibition"
+                                            />
+                                            <span class="checker"></span>
+                                            Exhibition
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="exterior installations"
+                                            />
+                                            <span class="checker"></span>
+                                            Exterior installations
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="film screenings"
+                                            />
+                                            <span class="checker"></span>
+                                            Film screenings
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="guided-tour"
+                                            />
+                                            <span class="checker"></span>
+                                            Guided tour
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="networking"
+                                            />
+                                            <span class="checker"></span>
+                                            Networking
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="podcasts + music"
+                                            />
+                                            <span class="checker"></span>
+                                            Podcasts + music
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="sites"
+                                            />
+                                            <span class="checker"></span>
+                                            Sites
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="project tours"
+                                            />
+                                            <span class="checker"></span>
+                                            Project tours
+                                        </label>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>Format</summary>
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="hybrid"
+                                            />
+                                            <span class="checker"></span>
+                                            Hybrid
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="in person"
+                                            />
+                                            <span class="checker"></span>
+                                            In person
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="animation"
+                                            />
+                                            <span class="checker"></span>
+                                            Animation
+                                        </label>
+                                    </div>
+                                </details>
+
+                                <details>
+                                    <summary>Discipline</summary>
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="architecture"
+                                            />
+                                            <span class="checker"></span>
+                                            Architecture
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="audio"
+                                            />
+                                            <span class="checker"></span>
+                                            Audio
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="craft"
+                                            />
+                                            <span class="checker"></span>
+                                            Craft
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="culinary"
+                                            />
+                                            <span class="checker"></span>
+                                            Culinary
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="digital"
+                                            />
+                                            <span class="checker"></span>
+                                            Digital
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="education"
+                                            />
+                                            <span class="checker"></span>
+                                            Education
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="engineering"
+                                            />
+                                            <span class="checker"></span>
+                                            Engineering
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="fashion"
+                                            />
+                                            <span class="checker"></span>
+                                            Fashion
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="furniture"
+                                            />
+                                            <span class="checker"></span>
+                                            Furniture
+                                        </label>
+                                    </div>
+
+                                    <div class="filter-item">
+                                        <label>
+                                            <input
+                                                type="checkbox"
+                                                value="gaming"
+                                            />
+                                            <span class="checker"></span>
+                                            Gaming
+                                        </label>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+                        <div class="pure-u-1 pure-u-lg-3-4 programs__items">
+                            <div class="date-part">
+                                <h3 class="date-part__date sticky-header">
+                                    Wed, September 21
+                                </h3>
+                                <div class="date-part__events">
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/1.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                The Future Inspired, By Design
+                                            </h3>
+                                            <p class="time">9am - 5pm</p>
+                                            <p class="slogan">
+                                                NewSchool of Architecture &
+                                                Design
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/2.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Scrap Weaving & Sustainable Art
+                                                Practice
+                                            </h3>
+                                            <p class="time">9:30am - 1:30pm</p>
+                                            <p class="slogan">
+                                                Revision Creative Workspace
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/3.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Layers of San Diego: Landscape
+                                                Modeling with Lasers and CNCs
+                                            </h3>
+                                            <p class="time">10am</p>
+                                            <p class="slogan">Aaron Cover</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/4.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Present Your Work with
+                                                Confidence: A Storytelling
+                                                Workshop for Designers
+                                            </h3>
+                                            <p class="time">10am - 12pm</p>
+                                            <p class="slogan">
+                                                Stacey Edelstein, Nathan Young
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/5.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Toying with Design
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/6.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Silk Screening Demo
+                                            </h3>
+                                            <p class="time">10am - 4pm</p>
+                                            <p class="slogan">
+                                                Valentine Viannay
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/7.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Prisma: Crafting Guitars from
+                                                Skateboards
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum,
+                                                Prisma Guitars, Grand Prestoz
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/8.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Sculpture and Design: New
+                                                Approaches
+                                            </h3>
+                                            <p class="time">11am</p>
+                                            <p class="slogan">Quint Gallery</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/9.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Revitalizing Community Through
+                                                Design Equity & Artist Housing
+                                            </h3>
+                                            <p class="time">1pm - 2pm</p>
+                                            <p class="slogan">
+                                                Art, Power, Equity (APE)
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/10.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Miller Hull Studio Tour and LBC
+                                                Discussion
+                                            </h3>
+                                            <p class="time">4pm - 5pm</p>
+                                            <p class="slogan">Miller Hull</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="date-part">
+                                <h3 class="date-part__date sticky-header">
+                                    Wed, September 22
+                                </h3>
+                                <div class="date-part__events">
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/1.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                The Future Inspired, By Design
+                                            </h3>
+                                            <p class="time">9am - 5pm</p>
+                                            <p class="slogan">
+                                                NewSchool of Architecture &
+                                                Design
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/2.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Scrap Weaving & Sustainable Art
+                                                Practice
+                                            </h3>
+                                            <p class="time">9:30am - 1:30pm</p>
+                                            <p class="slogan">
+                                                Revision Creative Workspace
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/3.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Layers of San Diego: Landscape
+                                                Modeling with Lasers and CNCs
+                                            </h3>
+                                            <p class="time">10am</p>
+                                            <p class="slogan">Aaron Cover</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/4.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Present Your Work with
+                                                Confidence: A Storytelling
+                                                Workshop for Designers
+                                            </h3>
+                                            <p class="time">10am - 12pm</p>
+                                            <p class="slogan">
+                                                Stacey Edelstein, Nathan Young
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/5.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Toying with Design
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/6.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Silk Screening Demo
+                                            </h3>
+                                            <p class="time">10am - 4pm</p>
+                                            <p class="slogan">
+                                                Valentine Viannay
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/7.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Prisma: Crafting Guitars from
+                                                Skateboards
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum,
+                                                Prisma Guitars, Grand Prestoz
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/8.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Sculpture and Design: New
+                                                Approaches
+                                            </h3>
+                                            <p class="time">11am</p>
+                                            <p class="slogan">Quint Gallery</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/9.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Revitalizing Community Through
+                                                Design Equity & Artist Housing
+                                            </h3>
+                                            <p class="time">1pm - 2pm</p>
+                                            <p class="slogan">
+                                                Art, Power, Equity (APE)
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/10.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Miller Hull Studio Tour and LBC
+                                                Discussion
+                                            </h3>
+                                            <p class="time">4pm - 5pm</p>
+                                            <p class="slogan">Miller Hull</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="date-part">
+                                <h3 class="date-part__date sticky-header">
+                                    Wed, September 23
+                                </h3>
+                                <div class="date-part__events">
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/1.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                The Future Inspired, By Design
+                                            </h3>
+                                            <p class="time">9am - 5pm</p>
+                                            <p class="slogan">
+                                                NewSchool of Architecture &
+                                                Design
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/2.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Scrap Weaving & Sustainable Art
+                                                Practice
+                                            </h3>
+                                            <p class="time">9:30am - 1:30pm</p>
+                                            <p class="slogan">
+                                                Revision Creative Workspace
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/3.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Layers of San Diego: Landscape
+                                                Modeling with Lasers and CNCs
+                                            </h3>
+                                            <p class="time">10am</p>
+                                            <p class="slogan">Aaron Cover</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/4.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Present Your Work with
+                                                Confidence: A Storytelling
+                                                Workshop for Designers
+                                            </h3>
+                                            <p class="time">10am - 12pm</p>
+                                            <p class="slogan">
+                                                Stacey Edelstein, Nathan Young
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/5.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Toying with Design
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/6.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Silk Screening Demo
+                                            </h3>
+                                            <p class="time">10am - 4pm</p>
+                                            <p class="slogan">
+                                                Valentine Viannay
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/7.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Prisma: Crafting Guitars from
+                                                Skateboards
+                                            </h3>
+                                            <p class="time">10am - 5pm</p>
+                                            <p class="slogan">
+                                                Mingei International Museum,
+                                                Prisma Guitars, Grand Prestoz
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/8.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Sculpture and Design: New
+                                                Approaches
+                                            </h3>
+                                            <p class="time">11am</p>
+                                            <p class="slogan">Quint Gallery</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/9.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Revitalizing Community Through
+                                                Design Equity & Artist Housing
+                                            </h3>
+                                            <p class="time">1pm - 2pm</p>
+                                            <p class="slogan">
+                                                Art, Power, Equity (APE)
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="event-card">
+                                        <div class="event-card__preview">
+                                            <a href="/event-example-page.html">
+                                                <img
+                                                    src="./images/programs/10.jpeg"
+                                                    alt=""
+                                                />
+                                            </a>
+                                        </div>
+                                        <div class="event-card__content">
+                                            <ul class="meta-list">
+                                                <li class="meta-list__item">
+                                                    In person
+                                                </li>
+                                                <li class="meta-list__item">
+                                                    Free
+                                                </li>
+                                            </ul>
+                                            <h3 class="title">
+                                                Miller Hull Studio Tour and LBC
+                                                Discussion
+                                            </h3>
+                                            <p class="time">4pm - 5pm</p>
+                                            <p class="slogan">Miller Hull</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer pd--m wow fadeIn">
+            <div class="container container--fullwidth">
+                <div class="widget">
+                    <h5 class="widget__title">Presented by</h5>
+                    <img
+                        class="footer__logo"
+                        src="./images/footer-img.png"
+                        alt=""
+                    />
+                </div>
+                <div class="widget">
+                    <h5 class="widget__title">Partners</h5>
+                    <ul class="footer__nav">
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://madebyraygun.com/"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Raygun</a
+                            >
+                        </li>
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://gomixte.com/"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Mixte</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h5 class="widget__title">Connect</h5>
+                    <ul class="footer__nav">
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://instagram.com/sddesignweek"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Instagram</a
+                            >
+                        </li>
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://facebook.com/sddesignweek"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Facebook</a
+                            >
+                        </li>
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://twitter.com/sddesignweek"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Twitter</a
+                            >
+                        </li>
+                        <li class="footer__nav-item">
+                            <a
+                                href="https://www.youtube.com/channel/UC2OSa2IMUC36Nb7Ut4KIQYw"
+                                target="_blank"
+                                class="footer__nav__link"
+                                >Youtube</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h5 class="widget__title">Sign up</h5>
+                    <form class="contact-form">
+                        <input
+                            type="email"
+                            placeholder="Enter your email address"
+                        />
+                        <button class="btn--triangle" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+
+        <script>
+            const wow = new WOW({
+                boxClass: "wow",
+                animateClass: "animated",
+                offset: 0,
+                mobile: true,
+                live: true,
+                scrollContainer: null,
+                resetAnimation: true,
+            });
+
+            wow.init();
+        </script>
+    </body>
+</html>
