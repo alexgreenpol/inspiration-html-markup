@@ -74,11 +74,13 @@
         <main>
             <section class="intro pd--xl">
                 <div class="container container--fullwidth">
-                    <div class="intro__slogan">Inspiration</div>
+                    <div class="intro__slogan wow zoomIn">Inspiration</div>
                     <div class="intro__image">
                         <img src="./images/hero1.jpg" alt="" />
                     </div>
-                    <button class="btn btn--primary">Explore programs</button>
+                    <button class="btn btn--primary wow zoomIn">
+                        Explore programs
+                    </button>
                     <img src="./images/logo.svg" alt="" class="intro__logo" />
                     <div class="presented-block">
                         <div class="presented-block__subtitle">
@@ -252,10 +254,8 @@
             </div>
         </footer>
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <script src="./js/jquery.fittext.js"></script>
         <script src="./js/main.js"></script>
 
         <script>
@@ -270,8 +270,6 @@
             });
 
             wow.init();
-
-            jQuery(".intro__slogan").fitText(0.65);
         </script>
     </body>
 </html>
